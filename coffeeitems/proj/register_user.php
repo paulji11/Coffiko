@@ -1,0 +1,3 @@
+<?php
+echo "<center>REGISTERATION IS SUCCSESSFULL AND ENJOY COFFEE";
+?>

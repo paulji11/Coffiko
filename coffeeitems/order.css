@@ -1,0 +1,42 @@
+th{
+    text-align:center;
+    
+
+}
+
+body{
+font-size: 20pt;
+font-family: 'Brush Script MT', cursive;
+background-image: url("order.jpg");
+background-repeat: no-repeat;
+background-attachment:;
+background-size:cover;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  div {
+    text-align: center;
+    border-style: solid;
+    margin-left: 400px;
+    width:60%
+}
+alignment{
+    margin-left: 40px;
+    margin-right: auto;
+
+}
+Overflow:scroll:
+{
+Overflow-x:scroll;//add horizontal bar option in html
+Overflow-y:scroll; //add vertical bar option in html
+}

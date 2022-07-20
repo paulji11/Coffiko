@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Coffee Shop</title>
+<link rel="Stylesheet">
+<style>
+
+body {
+ font-family: 'Brush Script MT', cursive;
+background-image :url("coffeeshop.webp");
+}
+.newmap{
+
+}
+
+.menutab {
+  overflow: hidden;
+  background-color: skyblue;
+  display: flex;
+  text-decoration: none;
+  align-items:center;
+}
+.menutab h2{
+ font-size : 40px;
+ font-family: 'Brush Script MT', cursive;
+
+}
+.menutab a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left:5px;
+}
+.menutab order{
+ float: left;
+  font-size: 20px;
+  color: white;
+  text-align: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left:5px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: skyblue;
+  font-family: inherit;
+  margin:0;
+}
+
+.menutab a:hover, .dropdown:hover .dropbtn .b:order {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:red ;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menutab input[type=text] {
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-left: 30%;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+  .menutab a, .menutab input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+
+  }
+  .menutab input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:36.25%;
+    position:relative;
+    height:0;
+
+}
+
+.map-responsive iframe{
+    right:10px;
+    bottom:0px;
+    height:60%;
+    width:30%;
+    position:absolute;
+
+}
+div.scroll
+{
+Width-5px;
+Height-10 px;
+Overflow-x:scroll;
+}
+</style>
+</head>
+<body>
+
+<div class="menutab">
+<h2 style="color:white"><i>Coffikoo</i></h2>
+<a href="coffeeitems/about.html">About</a>
+<a href="coffeeitems/coffee.html">Coffee</a>
+  <div class="dropdown">
+    <button class="dropbtn">Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="coffeeitems/veg.html">Veg</a>
+      <a href="coffeeitems/nonveg.html">Non-Veg</a>
+    </div>
+  </div>
+   <a href="coffeeitems/order.html">Order</a>
+  <input type="text" placeholder="Search..">
+</div>
+<marquee bgcolor="white" onmouseover="stop()" onmouseout="start()">DISCOUNT OFFERS !!!!!!!!! for Registered Customers ONLY.........
+<a href="coffeeitems/proj/regsiter.html">REGISTER NOW</a></marquee> 
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15727.919738512523!2d76.4776685664019!3d9.767764884908889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07d658fc7021cb%3A0xd76b1ebf332ed252!2sKaduthuruthy%2C%20Kerala!5e0!3m2!1sen!2sin!4v1651267162697!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+</body>
+</html>
